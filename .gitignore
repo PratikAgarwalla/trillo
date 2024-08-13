@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Package lock file
+package-lock.json
+
+# Ignore all CSS files except icons-fonts.css
+css/style.*
+
+
+# SCSS cache files
+.sass-cache/
+*.scssc
+
+# SCSS source maps
+*.map
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+
+# Generated files
+dist/
+build/
+
+# Ignore the local environment configuration file
+.env
